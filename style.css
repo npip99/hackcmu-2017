@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
+body {
+    background-image: url("img/bg.png");
+    background-size: 100% auto;
+    font-family: 'Rubik', serif;
+}
+
+.tasks p {
+    margin: 10px;
+    text-align: center;
+    padding: 1em;
+}
+
+.tk-henriette {
+    font-family: 'henriette', serif;
+    font-weight: bold;
+}
+
+body {
+    background-color: #E9E2E2;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 250px;
+}
+
+h1 {
+    text-align: center;
+    margin: 1.5em 0;
+}
+
+h1 span {
+    font-size: 1em;
+    letter-spacing: -0.1em;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+section h1 {
+    margin: 1em 0.5em;
+    font-size: 1.75em;
+}
+
+span {
+    font-size: 4em;
+    font-family: serif;
+    color: #721B2E;
+}
+
+button {
+  background-color: #721B2E;
+  border: none;
+  color: #FFF; 
+  cursor: pointer;
+  margin: 2em auto;
+  width: 300px;
+  height: 65px;
+  font-size: 1.5em;
+}
+
+table {
+    margin: auto;
+    width: 90%;
+    border-spacing: 75px 35px;
+    border-collapse: separate;
+    table-layout: fixed;
+}
+
+tr {
+    
+}
+
+td {
+    background-color: rgba(255, 255, 255, 0.82);
+    box-shadow: 0px 2px 4px 2px rgba(114, 27, 46, 0.14);
+    border-radius: 6px;
+    padding: 1.5em;
+}
+
+table img {
+    width: 20px;
+    height: 20px;
+    display: inline;
+    margin-right: 1.25em;
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+
+table input {
+    background: #E9E2E2;
+    width: 100%;
+    border: 1px #721B2E solid;
+}
+table input:focus {
+    outline-color: #721B2E;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    float: left;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    float: right;
+}
+
+figure > div:first-of-type {
+    width: 73.2%;
+    margin: 2em auto;
+    border: 1px #721B2E solid;
+}
+
+figure > div > div {
+    width: 100%;
+    background: #721B2E;
+}
+
+figure > div:last-of-type {
+    text-align: center;
+    font-size: 2em;
+}
